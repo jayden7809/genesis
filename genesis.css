@@ -1,0 +1,1187 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cf::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 20250513 추가코드 end */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 1920px;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 93px;
+    background-color: black;
+    /*     float: left; */
+    position: relative;
+}
+
+#emblem {
+    width: 142px;
+    height: 70px;
+    margin-left: 124px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: #000000;
+}
+
+#emblem a img {
+    position: absolute;
+    display: block;
+    margin-top: 20px;
+}
+
+#nav {
+    width: 650px;
+    height: 45px;
+    position: absolute;
+    left: 210px;
+    top: 35px;
+}
+
+#nav>div {
+    width: 90px;
+    height: 50px;
+    float: left;
+    margin-right: 2px;
+
+}
+
+#nav>div p {
+    color: #ffffff;
+}
+
+#model a {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 160px;
+}
+
+header #nav div a:hover{
+    border-bottom: 4px solid #f8f8f8;
+}
+
+#purchase a {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 260px;
+}
+
+
+#expeirence a {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 360px;
+}
+
+#members a {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 460px;
+}
+
+#headgenesis a {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 560px;
+}
+
+#nav2 {
+    position: absolute;
+    color: #fff;
+    top: 10px;
+}
+
+header #nav2 a:nth-child(1):hover{
+    border-bottom: 4px solid #fff;
+}
+header #nav2 a:nth-child(2):hover{
+    border-bottom: 4px solid #fff;
+}
+
+#consumer a {
+    display: block;
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 25px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#page a {
+    display: block;
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    margin-left: 1620px;
+    margin-top: 25px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#search a {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 1755px;
+    margin-top: 10px;
+}
+
+#search img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 26px;
+}
+
+#category a {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 1820px;
+    margin-top: 10px;
+}
+
+#category img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 0px #000;
+    border-radius: 25px;
+}
+
+#banner {
+    width: 100%;
+    height: 793px;
+    background-color: aqua;
+    background-image: url(./image/genesis-banner.jpg);
+}
+
+#banner>div.bannertext {
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 347px;
+}
+
+#banner>div.bannertext p {
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 73px;
+    position: absolute;
+    top: -10px;
+    color: #ffffff;
+}
+
+#banner>div.bannertext2 {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 370px;
+}
+
+.a1 {
+    color: #fff;
+    float: left;
+    position: absolute;
+    right: 120px;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.a2 {
+    color: #fff;
+    float: left;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+}
+
+/*  20250513 수정 start */
+
+#section1 {
+    width: 100%;
+    height: 814px;
+    background-color: rgb(0, 0, 0);
+}
+
+#section1>div {
+    position: relative;
+    width: 100%;
+    height: 814px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+#section1>div .carBoxtitle {
+    position: absolute;
+    width: 800px;
+    height: 170px;
+    top: 40px;
+    left: 223px;
+}
+
+
+/* 20250513 수정 end */
+
+
+#section1>div .carBoxtitle .cb1 {
+    font-size: 80px;
+    line-height: 170px;
+    color: #fff;
+}
+
+#section1>div .carBoxtitle .cb2 {
+    font-size: 18px;
+    color: #fff;
+}
+
+#section1 div .carBox{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    top: 400px;
+}
+
+#section1>div .carBox>div {
+    width: 470px;
+    height: 310px;
+    background-color: rgba(12, 12, 12, 1);
+    float: left;
+    margin-right: 31.5px;
+    position: relative;
+    border: 0.5px solid transparent;
+    left: 223px;
+    transition: all 0.3s;
+}
+
+
+#section1>div .carBox>div p {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+#section1>div .carBox>div img {
+    width: 470px;
+}
+
+/* 기본 상태 */
+#section1>div .carBox>div a {
+    display: block;
+    position: absolute;
+    width: 300px;
+    padding: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    bottom: -15px;
+    left: 70px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+/* 흰색 배경을 위한 ::before 가상 요소 */
+#section1>div .carBox>div a::before {
+    content: '자세히보기';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    /* 초기 너비를 0으로 설정 */
+    height: 100%;
+    /* 부모 요소의 높이와 동일하게 설정 */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    transition: width 0.3s ease-in-out;
+    z-index: 0;
+    opacity: 0;
+}
+
+/* hover 상태 (자세히보기 버튼) */
+#section1>div .carBox>div:hover a::before {
+    width: 100%;
+    opacity: 1;
+}
+
+/* hover 상태 (배경색상) */
+#section1>div .carBox>div:hover {
+    border: 0.5px solid #fff;
+    background-color: rgba(171, 66, 66, 0.3);
+}
+
+#section2 {
+    width: 100%;
+    height: 645px;
+    background-color: #111111;
+    position: relative;
+}
+
+#section2>div {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1500px;
+    height: 200px;
+    margin: auto;
+}
+
+#section2>div .one {
+    width: 250px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+#section2>div .one img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+#section2>div .one a {
+    position: absolute;
+    color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    bottom: 2px;
+    left: 22%;
+}
+
+#section2>div .two {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 175px;
+}
+
+#section2>div .two img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+#section2>div .two a {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    bottom: 2px;
+    left: 450px;
+}
+
+#section2>div .three {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 175px;
+}
+
+#section2>div .three img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+#section2>div .three a {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    bottom: 2px;
+    left: 910px;
+}
+
+#section2>div .four {
+    width: 250px;
+    height: 200px;
+    float: right;
+}
+
+#section2>div .four img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+#section2>div .four a {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    bottom: 2px;
+    right: 60px;
+}
+
+#section3 {
+    width: 100%;
+    height: 814px;
+    background-image: url(./image/genesis-section3.jpg);
+    position: relative;
+}
+
+#section3>.img1 {
+    width: 350px;
+    height: 600px;
+    background-color: rgb(29, 29, 29);
+    top: 107px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#section3>.img1 img {
+    height: 350px;
+    float: right;
+}
+
+#section3>.img1 .p1 {
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    top: 400px;
+    left: 5px;
+    position: absolute;
+}
+
+#section3>.img1 .p2 {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    top: 430px;
+    left: 5px;
+    position: absolute;
+}
+
+#section3>.img2 {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(29, 29, 29);
+    left: 660px;
+    top: 107px;
+    position: absolute;
+}
+
+#section3>.img2 img {
+    width: 600px;
+    height: 350px;
+}
+
+#section3>.img2 .p1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    top: 300px;
+    left: 40px;
+    position: absolute;
+}
+
+#section3>.img2 .p2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    top: 390px;
+    left: 40px;
+    position: absolute;
+}
+
+#section3>.img2 .p3 {
+    font-size: 23px;
+    color: #fff;
+    display: block;
+    top: 420px;
+    left: 40px;
+    position: absolute;
+}
+
+#section3>.img2 .p4 {
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    top: 460px;
+    left: 40px;
+    position: absolute;
+}
+
+#section3>.img3 {
+    width: 350px;
+    height: 600px;
+    background-color: rgb(29, 29, 29);
+    left: 1570px;
+    top: 107px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#section3>.img3 img {
+    height: 350px;
+}
+
+#section3>.img3 .p1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    top: 390px;
+    left: 40px;
+    position: absolute;
+}
+
+#section3>.img3 .p2 {
+    font-size: 23px;
+    color: #fff;
+    display: block;
+    top: 420px;
+    left: 40px;
+    position: absolute;
+}
+
+#section3>.img3 .p3 {
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    top: 460px;
+    left: 40px;
+    position: absolute;
+}
+
+#section4 {
+    width: 100%;
+    height: 865px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: #fff;
+}
+
+#section4>div .left {
+    width: 900px;
+    height: 700px;
+    background: url(./image/genesis-main-reddot-awards-2024-best-of-awards-neolun-concept-660x396.jpg);
+    background-size: 900px 700px;
+    float: right;
+    position: absolute;
+    top: 83px;
+}
+
+#section4>div .left .p1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+#section4>div .left .p2 {
+    margin-left: 70px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#section4>div .left a {
+    margin-left: 70px;
+    color: #fff;
+}
+
+#section4>div .right {
+    width: 900px;
+    height: 700px;
+    background: url(./image/genesis-kr-main-road-trip-16-desktop-960-x-540-ko.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 83px;
+}
+
+#section4>div .right .p1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+#section4>div .right .p2 {
+    margin-left: 70px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#section4>div .right a {
+    margin-left: 70px;
+    color: #fff;
+}
+
+#section5 {
+    width: 100%;
+    height: 918px;
+    background: url(./image/genesis\ section5.jpg);
+    position: relative;
+}
+
+#section5>.p1 {
+    position: absolute;
+    top: 360px;
+    left: 80px;
+    color: #fff;
+    font-size: 60px;
+}
+
+#section5>.p2 {
+    position: absolute;
+    top: 520px;
+    left: 80px;
+    color: #fff;
+    font-size: 26px;
+}
+
+#section5>a {
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 600px;
+    left: 80px;
+    color: #fff;
+    font-size: 26px;
+}
+
+#section6 {
+    width: 100%;
+    height: 715px;
+    background-color: #fff;
+}
+
+#section6>.sectitle {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 810px;
+    /* background-color: aqua; */
+}
+
+#section6>.sectitle p {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#section6>div {
+    width: 1672px;
+    height: 300px;
+    margin-left: 124px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#section6 div img {
+    width: 530px;
+    height: 300px;
+}
+
+#section6>div .left {
+    width: 530px;
+    height: 300px;
+    position: absolute;
+    background-color: bisque;
+}
+
+#section6>div .center {
+    width: 530px;
+    height: 300px;
+    position: absolute;
+    margin-left: 571px;
+    background-color: bisque;
+}
+
+#section6>div .right {
+    width: 530px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1142px;
+    background-color: bisque;
+}
+
+#section6>div .leftbottom {
+    width: 530px;
+    height: 100px;
+    position: absolute;
+    margin-top: 320px;
+    /* background-color: bisque; */
+}
+
+#section6>div .leftbottom .p1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#section6>div .leftbottom .p2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#section6>div .leftbottom a {
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+#section6>div .centerbottom {
+    width: 530px;
+    height: 100px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 571px;
+    /* background-color: bisque; */
+}
+
+#section6>div .centerbottom .p1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#section6>div .centerbottom .p2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#section6>div .centerbottom a {
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+#section6>div .rightbottom {
+    width: 530px;
+    height: 100px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 1142px;
+    /* background-color: bisque; */
+}
+
+#section6>div .rightbottom .p1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#section6>div .rightbottom .p2 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+#section6>div .rightbottom a {
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+#footer1 {
+    width: 100%;
+    height: 452px;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+}
+
+#footer1>div.down {
+    width: 500px;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 38px;
+    padding: 20px;
+    top: 100px;
+    left: 420px;
+    /* background-color: #ffb9b9; */
+}
+
+#footer1>div.google a {
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1100px;
+    /* background-color: #f02929; */
+}
+
+#footer1>div.apple a {
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1350px;
+    /* background-color: #f02929; */
+}
+
+#footer2 {
+    position: relative;
+    width: 100%;
+    height: 1120px;
+    background-color: rgb(20, 20, 20);
+    border-bottom: 0.1px solid #292929;
+    border-top: 0.1px solid #292929;
+}
+
+#footer2>.foot21 {
+    width: 300px;
+    height: 640px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#footer2>.foot21 ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+#footer2>.foot21 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer2>.foot21bottom {
+    width: 261px;
+    height: 250px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 783px;
+    left: 130px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#footer2>.foot21bottom ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+#footer2>.foot21bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer2>div.foot22 {
+    width: 261px;
+    height: 480px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#footer2>.foot22 ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+#footer2>.foot22 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer2>div.foot22bottom {
+    width: 261px;
+    height: 250px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 783px;
+    left: 600px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#footer2>.foot22bottom ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+#footer2>.foot22bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer2>div.foot23 {
+    width: 261px;
+    height: 430px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 100px;
+    left: 1070px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#footer2>.foot23 ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+#footer2>.foot23 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer2>.foot23bottom {
+    width: 261px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 783px;
+    left: 1070px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#footer2>.foot23bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer2>div.foot24 {
+    width: 261px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 100px;
+    left: 1510px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#footer2>.foot24 ul li {
+    list-style: none;
+    margin-top: 9px;
+}
+
+#footer2>.foot24 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer3 {
+    width: 100%;
+    height: 385px;
+}
+
+#footer3>.top {
+    width: 100%;
+    height: 88px;
+    background-color: rgb(20, 20, 20);
+    border-bottom: 0.1px solid #292929;
+    position: relative;
+}
+
+#footer3>.top a {
+    display: block;
+    position: absolute;
+    top: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer3>.top .footer31 {
+    left: 190px;
+}
+
+#footer3>.top .footer32 {
+    left: 330px;
+}
+
+#footer3>.top .footer33 {
+    left: 470px;
+}
+
+#footer3>.top .footer34 {
+    left: 680px;
+}
+
+#footer3>.top .footer35 {
+    left: 840px;
+}
+
+#footer3>.top .footer36 {
+    left: 980px;
+}
+
+#footer3>.top .footer37 {
+    left: 1300px;
+}
+
+
+
+#footer3>div.bottom {
+    width: 100%;
+    height: 297px;
+    background-color: rgb(19, 19, 19);
+    position: relative;
+}
+
+#footer3>.bottom a {
+    display: block;
+    width: 170px;
+    padding: 10px;
+    float: left;
+    /* background-color: black; */
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer3>.bottom .b2 {
+    left: 340px;
+}
+
+#footer3>.bottom .b3 {
+    left: 550px;
+}
+
+#footer3>.bottom .b4 {
+    left: 760px;
+}
+
+#footer3>.bottom .b5 {
+    left: 970px;
+    font-size: 13px;
+}
+
+#footer3>.bottom .b6 {
+    left: 1180px;
+}
+
+#footer3>.bottom .b7 {
+    left: 1360px;
+}
+
+#footer3>div .btemblem {
+    width: 200px;
+    height: 110px;
+    /* background-color: #000; */
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 187px;
+}
+
+#footer3>.bottom .btemblem a img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: -125px;
+    top: -20px;
+}
+
+#footer3>div .btemblem p {
+    position: absolute;
+    top: 70px;
+    width: 200px;
+    height: 70px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+}
